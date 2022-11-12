@@ -1,9 +1,12 @@
 import "./App.css";
 import Header from "../components/Header";
+import Herosection from "../components/Hersection";
 function App() {
   return (
-    <div className="App">
+    <div className="tc">
       <Header></Header>
+
+      <Herosection></Herosection>
     </div>
   );
 }

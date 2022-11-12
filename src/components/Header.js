@@ -1,13 +1,19 @@
-import React from "react";
 import "./header.css";
+import logo from "../components/logo.png";
 
 function header() {
   return (
-    <div className="header">
-      <img src={`https://robohash.org/25?set=set5`} alt="Owner" />
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">contact</a>
+    <div className="header ">
+      <div className="logo">
+        <a href="/">
+          <img src={logo} alt="logo"></img>
+        </a>
+      </div>
+      <div>
+        <a className="pulse" href="#">
+          Contact
+        </a>
+      </div>
     </div>
   );
 }

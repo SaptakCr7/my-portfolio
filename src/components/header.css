@@ -1,13 +1,54 @@
-.header {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-img {
-  height: 80px;
+@font-face {
+  font-family: "f Fighter Fish Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("f Fighter Fish Regular"),
+    url("FighterFish-3zG53.woff") format("woff");
 }
 
-a {
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+.logo {
+  color: #18272f;
+  margin-top: 10px;
+  width: 80px;
+}
+.pulse {
+  margin-left: 20px;
+  color: #18272f;
+  font-family: "Bulletto Killa¬ Regular";
+  font-size: 30px;
   text-decoration: none;
+  position: relative;
+}
+
+.pulse::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.pulse:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.title {
+  font-family: "Bulletto Killa¬ Regular";
+  color: black;
+  display: flex;
+  align-items: center;
 }
