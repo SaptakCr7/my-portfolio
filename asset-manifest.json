@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SaptakCr7/my-portfolio/static/css/main.7c02d478.css",
+    "main.js": "/SaptakCr7/my-portfolio/static/js/main.19b7928c.js",
+    "static/js/787.128fc6e9.chunk.js": "/SaptakCr7/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/logo.png": "/SaptakCr7/my-portfolio/static/media/logo.eb7195c91aec9fd88603.png",
+    "static/media/Bulletto Killa.woff": "/SaptakCr7/my-portfolio/static/media/Bulletto Killa.8bf4dcb564ff072edcf1.woff",
+    "static/media/myimg.jpg": "/SaptakCr7/my-portfolio/static/media/myimg.5fd5e8d075ef4841e7e2.jpg",
+    "static/media/FighterFish-3zG53.woff": "/SaptakCr7/my-portfolio/static/media/FighterFish-3zG53.3cacd775c3927198eaa4.woff",
+    "static/media/hero.svg": "/SaptakCr7/my-portfolio/static/media/hero.ca82e97c349a897082b6268dd7f8d733.svg",
+    "index.html": "/SaptakCr7/my-portfolio/index.html",
+    "main.7c02d478.css.map": "/SaptakCr7/my-portfolio/static/css/main.7c02d478.css.map",
+    "main.19b7928c.js.map": "/SaptakCr7/my-portfolio/static/js/main.19b7928c.js.map",
+    "787.128fc6e9.chunk.js.map": "/SaptakCr7/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c02d478.css",
+    "static/js/main.19b7928c.js"
+  ]
+}
