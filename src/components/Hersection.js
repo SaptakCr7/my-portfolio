@@ -6,13 +6,11 @@ import myimg from "../components/myimg.jpg";
 function herosection() {
   return (
     <div>
-      <div class="container">
-        <div class="avatar">
-          <a href="https://codepen.io/MarioDesigns/">
-            <img src={myimg} alt="Owner" />
-          </a>
+      <div className="container">
+        <div className="avatar">
+          <img src={`https://robohash.org/25?set=set5`} alt="Owner" />
         </div>
-        <div class="content">
+        <div className="content">
           <div className="Heading">
             <h1>Web Designer & Frontend Developer </h1>
             <p>
@@ -29,7 +27,7 @@ function herosection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa-brands fa-3x fa-twitter"></i>
+                <i className="fa-brands fa-3x fa-twitter"></i>
               </a>
             </span>
             <span>
@@ -38,7 +36,7 @@ function herosection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa fa-3x fa-github"></i>
+                <i className="fa fa-3x fa-github"></i>
               </a>
             </span>
             <span>
@@ -47,7 +45,7 @@ function herosection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fa-brands fa-3x fa-linkedin"></i>
+                <i className="fa-brands fa-3x fa-linkedin"></i>
               </a>
             </span>
           </p>
