@@ -1,7 +1,6 @@
 import React from "react";
 import "./Cards.css";
 import hero from "../components/hero.svg";
-import myimg from "../components/myimg.jpg";
 
 function herosection() {
   return (
