@@ -1,6 +1,6 @@
 import React from "react";
-import "./Cards.css";
-import hero from "../components/hero.svg";
+import "../stylesheet/Cards.css";
+import hero from "../assets/hero.svg";
 
 function herosection() {
   return (
